@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formos</h1>
+
+    <form action="forms.html" method="post">
+
+        <fieldset>
+            <legend>Prisijungimas</legend>
+            <div>
+                <label for="username">Prisijungimo vardas</label>
+            </div>
+            <div>
+                <input type="text" id="username" name="username" autocomplete="off" required>
+            </div>
+
+            <div>
+                <label for="password">Slaptažodis</label>
+            </div>
+            <div>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <div>
+                <input type="submit" value="Siųsti">
+            </div>
+        </fieldset>
+
+    </form>
+
+    <h2>Kiti formos elementai</h2>
+
+    <!-- dropdown meniu -->
+    <div>
+        <select name="" id="">
+            <option value="Jonas">Jonas</option>
+            <option value="Petras">Petras</option>
+            <option value="Onutė">Onutė</option>
+        </select>
+    </div>
+    <!-- radio button -->
+    <div>
+        <label for="man">Vyras</label>
+        <input type="radio" name="gender" id="man">
+
+        <label for="woman">Moteris</label>
+        <input type="radio" name="gender" id="woman">
+    </div>
+
+    <!-- checkbox -->
+    <div>
+        <label for="english">Anglų</label>
+        <input type="checkbox" name="lang" id="english">
+        <label for="german">Vokiečių</label>
+        <input type="checkbox" name="lang" id="german">
+    </div>
+
+    <!-- textarea -->
+    <div>
+        <div>
+            <label for="comment">Komentaras</label>
+        </div>
+        <div>
+            <textarea name="" id="comment" cols="30" rows="10" placeholder="Rašykite"></textarea>
+        </div>
+    </div>
+
+</body>
+
+</html>
