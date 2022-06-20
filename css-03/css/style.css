@@ -1,0 +1,71 @@
+h1{
+    background-color: green!important;
+}
+/* tarpas tarp selektorių */
+.paragraph{
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; */
+    padding: 5px;
+    /* padding: 10px 20px;
+    padding: 5px 10px 15px 20px; */
+}
+
+.first-paragraph{
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+.second-paragraph{
+    background-color: rgba(199, 192, 67, 1);
+}
+
+.border{
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; */
+    border: 1px solid black;
+}
+
+#name, #surname{
+    font-size: 20px;
+}
+
+/* atributu selektoriai */
+[for]{
+    color: blue;
+    font-weight: bold;
+}
+
+[for="name"]{
+    text-decoration: underline;
+}
+
+/* tiesiognis vaikinis */
+div > p{
+    background-color: red;
+}
+
+/* visi vaikiniai */
+/* div p{
+    background-color: red;
+} */
+
+/* pseudo klasės */
+input:hover{
+    background-color: silver;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tbody > tr:nth-child(2n+1){
+    background-color: rgb(226, 226, 226);
+}
+
+td{
+    text-align: center;
+}
