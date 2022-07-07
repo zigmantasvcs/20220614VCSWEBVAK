@@ -1,0 +1,27 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+/*
+    main styles
+*/
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    overflow: hidden;
+}
+
+.show {
+    display: block;
+    height: calc(100vh - 200px);
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
